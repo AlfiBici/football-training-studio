@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7f6;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #0b3d2e;
+  padding: 18px 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 70px 25px;
+}
+
+#home {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #0b3d2e;
+  color: white;
+}
+
+#home h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 20px;
+  margin: 8px 0;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h3 {
+  margin: 15px 0 8px;
+}
+
+section > p {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+section div {
+  background: white;
+  padding: 25px;
+  margin: 18px 0;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+button {
+  border: none;
+  padding: 14px 25px;
+  margin: 15px 8px;
+  border-radius: 8px;
+  background: #16a34a;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #15803d;
+}
+
+#gallery {
+  background: #eaf4ee;
+}
+
+#videos {
+  background: #eef2ff;
+}
+
+#achievements {
+  background: #fff7ed;
+}
+
+#schedule {
+  background: #f0fdf4;
+}
+
+#contact {
+  background: #ecfeff;
+}
+
+@media (max-width: 700px) {
+  nav a {
+    display: inline-block;
+    margin: 6px;
+  }
+
+  #home h2 {
+    font-size: 34px;
+  }
+
+  section {
+    padding: 50px 18px;
+  }
+  #training img {
+  width: 100%;
+  max-width: 500px;
+  height: 280px;
+  object-fit: contain;
+  display: block;
+  margin: 15px auto;
+  border-radius: 12px;
+}
